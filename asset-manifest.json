@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hanyisy/books.git/static/css/main.6686d0bd.css",
+    "main.js": "/hanyisy/books.git/static/js/main.aec2b5d3.js",
+    "static/media/bookday3.jpg": "/hanyisy/books.git/static/media/bookday3.6ec544bc66a949ce923d.jpg",
+    "static/media/bookday2.png": "/hanyisy/books.git/static/media/bookday2.db4f0567224c45336710.png",
+    "static/media/bookday.png": "/hanyisy/books.git/static/media/bookday.be9b96aa71d519c3144a.png",
+    "index.html": "/hanyisy/books.git/index.html",
+    "main.6686d0bd.css.map": "/hanyisy/books.git/static/css/main.6686d0bd.css.map",
+    "main.aec2b5d3.js.map": "/hanyisy/books.git/static/js/main.aec2b5d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6686d0bd.css",
+    "static/js/main.aec2b5d3.js"
+  ]
+}
