@@ -1,0 +1,50 @@
+
+$main-color: rgb(69, 169, 107);
+$text-color: #181818;
+$backgrond-C:rgb(39, 31, 28);
+$logo-f:"Delius";
+$fonts:"Gowun Batang";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $text-color;
+}
+// headers-----------------------------------------------------------------------------------------------------
+.Head{
+    height: 6rem; display: flex; justify-content: space-around; align-items: flex-end; padding-bottom: 1rem;
+    background-color: $backgrond-C; position: relative;
+}
+.headB a{color: $main-color; text-decoration: none; font-family: $logo-f, serif;  font-size: 2.5rem;}
+.headM{
+    display: flex; justify-content: space-around;
+}
+.headM>ul{
+    list-style: none; gap: 1.8rem;
+    display: flex; justify-content: space-around;
+}
+.headM>ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0); transition: 0.3s;
+    width: 3rem; text-align: center; transform: translateY(0.5rem);
+}
+.headM>ul li:hover{
+    border-bottom: 1px solid white;
+}
+.headM a{
+    font-size: 1rem; color: white; text-decoration: none; font-family: $fonts;
+}
+.home{
+    width: 90%; margin: auto; text-align: center;
+}
+
+// headers end-----------------------------------------------------------------------------------
+
+
+
+// footer -------------------------------------------------------------------------------------
+.Footers{
+    width: 100%; position: relative; bottom: 0;
+    height: 4rem; background-color: $backgrond-C;
+    display: flex; justify-content: center; align-items: center;
+}
+.Footers>div{color: white; font-size: 0.8rem;}

@@ -1,0 +1,123 @@
+
+$main-color: rgb(69, 169, 107);
+$text-color: #181818;
+$backgrond-C:rgb(39, 31, 28);
+$logo-f:"Delius";
+$fonts:"Gowun Batang";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $text-color;
+}
+// headers-----------------------------------------------------------------------------------------------------
+.Head{
+    height: 6rem; display: flex; justify-content: space-around; align-items: flex-end; padding-bottom: 1rem;
+    background-color: $backgrond-C; position: relative;
+}
+.headB a{color: $main-color; text-decoration: none; font-family: $logo-f, serif;  font-size: 2.5rem;}
+.headM{
+    display: flex; justify-content: space-around;
+}
+.headM>ul{
+    list-style: none; gap: 1.8rem;
+    display: flex; justify-content: space-around;
+}
+.headM>ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0); transition: 0.3s;
+    width: 3rem; text-align: center; transform: translateY(0.5rem);
+}
+.headM>ul li:hover{
+    border-bottom: 1px solid white;
+}
+.headM a{
+    font-size: 1rem; color: white; text-decoration: none; font-family: $fonts;
+}
+.home{
+    width: 90%; margin: auto; text-align: center;
+}
+
+// headers end-----------------------------------------------------------------------------------
+
+
+// main Top------------------------------------------------------------------------------------------
+.maintops{
+    width: 85%; margin:3rem auto; height: 8rem; position: relative; left: 45%; transform: translateX(-50%);
+    display: flex; justify-content: space-between; align-items: start;
+}
+.Wapi{
+    width: 30%; height: 100%;
+    padding: 1rem; border: 1px solid $backgrond-C; border-radius: 1.5rem;
+    display: flex; flex-direction: column; align-items: center;
+}
+.cityBox{width: 90%; border-bottom: 1px solid $backgrond-C; display: flex; justify-content: space-between; align-items: end;}
+.mainTime{font-family: $logo-f; color: $backgrond-C; font-size: 3rem; margin: 0.5rem auto;}
+
+.mainSlide{width: 60%; height: 9rem; position: relative; margin: auto;}
+.slideContainer{
+    width: 100%; height: 10rem; overflow: hidden; border: 1px solid $backgrond-C; border-radius: 1.5rem;
+}
+.slideContainer img{width: 100%; height: 100%; object-fit:100% cover;}
+// main Top end ---------------------------------------------------------------------------------------
+
+//review -----------------------------------------------------------------------------------------------
+.bookReview{width: 100%; height: 17rem; margin-top: 10rem; position: relative; background-color: rgb(141, 196, 162);}
+.rebook{width: 85%; height: 90%; margin: auto; position: relative; display: flex; align-items: center; left: 45%; transform: translateX(-50%);}
+.rebook>div:nth-child(1){
+    width: 20%; height: 90%; position: relative; margin-top: 1.5rem;
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 0.5rem; border: 1px solid $backgrond-C; border-radius: 1.5rem;
+}
+.reviewBtn{width: 100%; display: flex; justify-content: left; gap: 0.5rem;}
+.reviewBtn>button{
+    width: 30%; height: 1.5rem; color: $backgrond-C; border-radius: 0.5rem;
+    background-color: $main-color; border: 1px solid $backgrond-C;
+    cursor: pointer;
+}
+.reviewBtn>button:hover{
+    background-color: $backgrond-C; color:$main-color;
+}
+
+.rebook>div:nth-child(2){
+    width: 75%; height: 90%; display: flex; justify-content: space-around; align-items: center;
+}
+.reviewItem{
+    width: 30%; display: flex; justify-content: space-around; 
+    height: 90%;
+}
+.reviewItem>div:nth-child(1){width: 40%; height: 100%;}
+.reviewItem>div:nth-child(1) img{width: 100%; height: 100%; object-fit: contain;}
+.reviewItem>div:nth-child(2){
+    width: 50%; height: 70%; padding: 0.5rem; 
+}
+.reviewName{font-size: 0.9rem; margin-bottom: 0.3rem; font-weight: 500; height: 2rem; align-content: center; height: 10%;}
+.reviewBook{font-size: 0.7rem; overflow-y: scroll; height: 90%; margin-top: 1rem;}
+
+// book review end -----------------------------------------------------------------------------------------------------
+
+//new book --------------------------------------------------------------------------------------------------------------
+.newBooks{position: relative; width: 100vw; height: 30rem; margin: 10rem 0rem;}
+.newBookBox{width: 85%; height: 80%; margin: auto; display: flex; justify-content: space-between; align-items: start;}
+.newBookstit{width: 85%; margin: auto; padding-bottom: 4rem; font-size: 2.5rem; text-align: center; font-family: $fonts; font-weight: 600;}
+.newBookdiv{width: 20%; height: 90%;}
+.newBookimg{width: 95%; height: 70%;}
+.newBookimg img{width: 100%; height: 100%; object-fit: contain;}
+.newBooktxt{width: 90%; height: 25%; margin: 0.5rem auto; display: flex; flex-direction: column; gap: 0.5rem;}
+.newBooktxt>div:nth-child(1){
+    font-size: 1.1rem; font-weight: 600; text-align: center;
+}
+.newBooktxt>div:nth-child(2){
+    font-size: 0.8rem; text-align: center; color: rgb(53, 53, 53);
+}
+.newBooktxt>div:nth-child(3){
+    font-size: 0.7rem; text-align: center; color: rgb(53, 53, 53);
+}
+
+
+// footer -------------------------------------------------------------------------------------
+.Footers{
+    width: 100%; position: relative; bottom: 0;
+    height: 4rem; background-color: $backgrond-C;
+    display: flex; justify-content: center; align-items: center;
+}
+.Footers>div{color: white; font-size: 0.8rem;}
