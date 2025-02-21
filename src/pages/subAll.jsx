@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import '../style/sub.scss';
 import AllList1 from '../data/allList1.json';
 import AllList2 from '../data/allList2.json';
 import AllList3 from '../data/allList3.json';
-import '../style/sub.scss';
 
 const Suball = () => {
   const [selectedList, setSelectedList] = useState("allsB");
@@ -16,8 +16,8 @@ const Suball = () => {
   const selectedAllbook = allbookList[selectedList];
 
   return (
-    <div className='bookReview'>
-      <div className='rebook'>
+    <div className='bookListpage'> 
+      <div className='listBook'>
         <div>
           <h2>All Books</h2>
           <div className='bookListBtn'>
@@ -31,11 +31,12 @@ const Suball = () => {
           {selectedAllbook?.map((lists, index) => (
             <div key={index} className="booklistItem">
               <div>
-                <img src={lists.img} alt={lists.bookN} />
+                <img src={lists.newImgs} alt={lists.bookN} />
               </div>
               <div>
-                <div className="booklistName">{lists.nicN}</div>
-                <div className="booklistBook">{lists.bookN}</div>
+                <div className="booklistName">{lists.newBon}</div>
+                <div className="booklistBook">{lists.newW}</div>
+                <div className='booklistPri'>{lists.newPri}</div>
               </div>
             </div>
           ))}
@@ -45,4 +46,4 @@ const Suball = () => {
   );
 };
 
-export default Suball;
+export default Suball; 

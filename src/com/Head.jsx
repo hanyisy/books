@@ -9,10 +9,10 @@ const Head = () => {
       <div className='headM'>
         <ul>
             <li><Link to='/' end>HOME</Link></li>
-            <li><Link to='/Top' >ALL</Link></li>
-            <li><Link to='/Bot' >BEST</Link></li>
-            <li><Link to='/sho' >NEW</Link></li>
-            <li><Link to='/ve' >EVENT</Link></li>
+            <li><Link to='/Suball' >ALL</Link></li>
+            <li><Link to='/SubBest' >BEST</Link></li>
+            <li><Link to='/SubNew' >NEW</Link></li>
+            <li><Link to='/SubEvent' >EVENT</Link></li>
         </ul>
       </div> 
     </div>

@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import '../style/main.scss';
+import React, { useState, useEffect } from 'react'; 
 import bookday from '../imgs/bookday.png'
 import bookday2 from '../imgs/bookday2.png'
 import bookday3 from '../imgs/bookday3.jpg'
