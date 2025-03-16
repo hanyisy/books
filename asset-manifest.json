@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/books/static/css/main.4520ca0b.css",
-    "main.js": "/books/static/js/main.ac720be7.js",
-    "static/media/wers.png": "/books/static/media/wers.0705ea663751e6dd8901.png",
-    "static/media/events01.jpg": "/books/static/media/events01.c19723719d7aa988b3f7.jpg",
-    "static/media/bookday3.jpg": "/books/static/media/bookday3.6ec544bc66a949ce923d.jpg",
-    "static/media/bookday2.png": "/books/static/media/bookday2.db4f0567224c45336710.png",
-    "static/media/bookday.png": "/books/static/media/bookday.be9b96aa71d519c3144a.png",
-    "index.html": "/books/index.html",
-    "main.4520ca0b.css.map": "/books/static/css/main.4520ca0b.css.map",
-    "main.ac720be7.js.map": "/books/static/js/main.ac720be7.js.map"
+    "main.css": "/study/%20git%20%EB%A7%81%ED%81%AC/static/css/main.4520ca0b.css",
+    "main.js": "/study/%20git%20%EB%A7%81%ED%81%AC/static/js/main.6ebe67a1.js",
+    "static/media/wers.png": "/study/%20git%20%EB%A7%81%ED%81%AC/static/media/wers.0705ea663751e6dd8901.png",
+    "static/media/events01.jpg": "/study/%20git%20%EB%A7%81%ED%81%AC/static/media/events01.c19723719d7aa988b3f7.jpg",
+    "static/media/bookday3.jpg": "/study/%20git%20%EB%A7%81%ED%81%AC/static/media/bookday3.6ec544bc66a949ce923d.jpg",
+    "static/media/bookday2.png": "/study/%20git%20%EB%A7%81%ED%81%AC/static/media/bookday2.db4f0567224c45336710.png",
+    "static/media/bookday.png": "/study/%20git%20%EB%A7%81%ED%81%AC/static/media/bookday.be9b96aa71d519c3144a.png",
+    "index.html": "/study/%20git%20%EB%A7%81%ED%81%AC/index.html",
+    "main.4520ca0b.css.map": "/study/%20git%20%EB%A7%81%ED%81%AC/static/css/main.4520ca0b.css.map",
+    "main.6ebe67a1.js.map": "/study/%20git%20%EB%A7%81%ED%81%AC/static/js/main.6ebe67a1.js.map"
   },
   "entrypoints": [
     "static/css/main.4520ca0b.css",
-    "static/js/main.ac720be7.js"
+    "static/js/main.6ebe67a1.js"
   ]
 }
