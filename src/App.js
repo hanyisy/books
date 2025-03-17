@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Footers from './com/Footers';
 import Head from './com/Head';
 import Home from './pages/Home';
@@ -13,11 +13,11 @@ function App() {
       <div className="App">
         <Head />
         <Routes>
-          <Route path="/" element={<Home />} /> 
-          <Route path="/Suball" element={<Suball />} />
-          <Route path="/SubBest" element={<SubBest />} />
-          <Route path="/SubNew" element={<SubNew />} />
-          <Route path="/SubEvent" element={<SubEvent />} />
+          <Route path="" element={<Home />} /> 
+          <Route path="Suball" element={<Suball />} />
+          <Route path="SubBest" element={<SubBest />} />
+          <Route path="SubNew" element={<SubNew />} />
+          <Route path="SubEvent" element={<SubEvent />} />
         </Routes>
         <Footers />
       </div>
